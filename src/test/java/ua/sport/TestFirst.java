@@ -34,10 +34,9 @@ public class TestFirst extends WebDriverSettings {
             Assert.assertFalse("There is a coincidence N2", TestCondition2);
             counter++;
         }
+    }
 
-
-
-
+    public void testTwo() {
 
     }
 }
