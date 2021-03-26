@@ -11,14 +11,12 @@ public class WebDriverSettings {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");
         driver = new ChromeDriver();
-
         System.out.println("START");
     }
 
     @After
     public void close() {
         System.out.println("FINISH");
-
         driver.quit();
     }
 }
